@@ -1,0 +1,54 @@
+{
+  "Index": {
+    "title": "Hello world!"
+  },
+  "Presentation": {
+    "title": "Full Stack Developer",
+    "subtitle": "I'm a young full stack developer based in Annecy, France. I have a passion for web development and love to create a fully functional website from A to Z. I am currently looking for an apprenticeship as a full stack developer."
+  },
+  "About": {
+    "title": "About me",
+    "subtitle": "One of my goals as a developer is to be able to create applications that can help people in their daily lives. I'm a developer who's passionate about technology and new trends. I love learning new things and I'm always ready to take on new challenges. Another of my goals is to have a GitHub full of projects with as many technologies as possible, but I'd especially like to focus on web or mobile development."
+  },
+  "Project": {
+    "AnimeSaver": {
+      "title": "AnimeSaver",
+      "description": "A web application to record the anime you've watched",
+      "image": "/images/AnimeSaver.gif",
+      "details": "A web application to record the anime you've watched",
+      "link": "https://github.com/FlorianDevv/AnimeSaver"
+    },
+    "BetterSurvival": {
+      "title": "BetterSurvival",
+      "description": "A Minecraft plugin to enhance the survival experience",
+      "image": "/images/BetterSurvival.gif",
+      "details": "A Minecraft plugin to enhance the survival experience",
+      "link": "https://github.com/FlorianDevv/BetterSurvival"
+    },
+    "ChatbotSpring": {
+      "title": "ChatbotSpring",
+      "description": "A chatbot with ChatGpt",
+      "image": "/images/Chatbot.gif",
+      "details": "A web chatbot with ChatGpt and Spring Boot",
+      "link": "https://github.com/FlorianDevv/ChatbotSpring"
+    }
+  },
+  "Project-text": {
+    "title": "My projects",
+    "more": "And more ..."
+  },
+  "Contact": {
+    "title": "Contact me !",
+    "subtitle": "If you have any questions or simply wish to contact me, you can do so via the social networks below or by e-mail.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    },
+    "social": {
+      "github": "More about my projects",
+      "linkedin": "Visit my Linkedin"
+    }
+  }
+}

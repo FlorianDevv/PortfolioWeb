@@ -1,0 +1,54 @@
+{
+  "Index": {
+    "title": "Bonjour monde!"
+  },
+  "Presentation": {
+    "title": "Développeur Full Stack",
+    "subtitle": "Je suis un jeune développeur full stack basé en France à Annecy. j'ai une passion pour le développement Web et j'aime créer des sites Web entièrement fonctionnel de A à Z. Je suis actuellement à la recherche d'une alternance en tant que développeur full stack."
+  },
+  "About": {
+    "title": "À propos de moi",
+    "subtitle": "Un de mes objectifs de développeur est de pouvoir créer des applications qui peuvent aider les gens dans leur vie quotidienne. Je suis un développeur qui est passionné par la technologie et les nouvelles tendances. J'aime apprendre de nouvelles choses et je suis toujours prêt à relever de nouveaux défis. Un autre de mes objectifs est d'avoir un GitHub rempli de projets avec le plus de technologies possible, Mais j'aimerais surtout me concentrer sur le développement web ou mobile."
+  },
+  "Project": {
+    "AnimeSaver": {
+      "title": "AnimeSaver",
+      "description": "Une application web pour sauvegarder les animes que vous avez vu",
+      "image": "/images/AnimeSaver.gif",
+      "details": "Une application web pour sauvegarder les animes que vous avez vu",
+      "link": "https://github.com/FlorianDevv/AnimeSaver"
+    },
+    "BetterSurvival": {
+      "title": "BetterSurvival",
+      "description": "Un plugin minecraft pour améliorer l'expérience de survie",
+      "image": "/images/BetterSurvival.gif",
+      "details": "Un plugin minecraft pour améliorer l'expérience de survie",
+      "link": "https://github.com/FlorianDevv/BetterSurvival"
+    },
+    "ChatbotSpring": {
+      "title": "ChatbotSpring",
+      "description": "Un chatbot avec ChatGpt",
+      "image": "/images/Chatbot.gif",
+      "details": "Un chatbot WEB avec ChatGpt et Spring Boot",
+      "link": "https://github.com/FlorianDevv/ChatbotSpring"
+    }
+  },
+  "Project-text": {
+    "title": "Mes projets",
+    "more": "Et plus à venir ..."
+  },
+  "Contact": {
+    "title": "Contactez moi !",
+    "subtitle": "Si vous avez des questions ou si vous souhaitez simplement me contacter, vous pouvez le faire via les réseaux sociaux ci-dessous ou par e-mail.",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "send": "Envoyer"
+    },
+    "social": {
+      "github": "En savoir plus sur mes projets",
+      "linkedin": "Voir mon Linkedin"
+    }
+  }
+}
