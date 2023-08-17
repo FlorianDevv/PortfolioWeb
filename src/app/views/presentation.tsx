@@ -19,8 +19,11 @@ export default function Presentation() {
       complete: () => {
         anime({
           targets: titleRef.current,
-          scale: [1.2],
+          scale: [1.1, 1],
           loop: true,
+          direction: "alternate",
+          easing: "easeInOutSine",
+          duration: 3000,
         });
       },
     });
