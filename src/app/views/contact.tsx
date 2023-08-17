@@ -14,13 +14,13 @@ export default function Contact() {
           if (linkedinRef.current) {
             anime({
               targets: linkedinRef.current!,
-              translateX: [-10000, 0],
+              translateX: [-100, 0],
             });
           }
           if (githubRef.current) {
             anime({
               targets: githubRef.current!,
-              translateX: [10000, 0],
+              translateX: [100, 0],
             });
           }
         }
