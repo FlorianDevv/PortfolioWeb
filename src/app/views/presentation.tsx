@@ -19,9 +19,7 @@ export default function Presentation() {
       complete: () => {
         anime({
           targets: titleRef.current,
-          scale: [1, 1.1],
-          easing: "easeInOutQuad",
-          duration: 1000,
+          scale: [1.2],
           loop: true,
         });
       },

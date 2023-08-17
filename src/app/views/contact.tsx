@@ -1,8 +1,40 @@
-//contact form view using nextjs and tailwindcss
 import React from "react";
 import { useTranslations } from "next-intl";
+import anime from "animejs/lib/anime.es.js";
 export default function Contact() {
   const t = useTranslations("Contact");
+
+  const linkedinRef = React.useRef(null);
+  const githubRef = React.useRef(null);
+
+  React.useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          if (linkedinRef.current) {
+            anime({
+              targets: linkedinRef.current!,
+              translateX: [-10000, 0],
+            });
+          }
+          if (githubRef.current) {
+            anime({
+              targets: githubRef.current!,
+              translateX: [10000, 0],
+            });
+          }
+        }
+      },
+      { threshold: 0.1 }
+    );
+    if (linkedinRef.current) {
+      observer.observe(linkedinRef.current);
+    }
+    if (githubRef.current) {
+      observer.observe(githubRef.current);
+    }
+  }, []);
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-[url(../image/bd-contact.svg)] bg-cover bg-center">
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
@@ -65,13 +97,14 @@ export default function Contact() {
 
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
           <a
+            ref={linkedinRef}
             href="https://www.linkedin.com/in/florian-pichon-dev/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:bg-opacity-80  backdrop-blur-md hover:bg-white focus:bg-opacity-80 focus:backdrop-blur-md transition-all hover:text-blue-700"
           >
             <h3 className="text-2xl font-bold flex items-center">
-              Linkedin
+              LinkedIn
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -88,6 +121,7 @@ export default function Contact() {
             <p className="mt-4 text-xl">{t("social.linkedin")}</p>
           </a>
           <a
+            ref={githubRef}
             href="https://www.github.com/florianDevv"
             target="_blank"
             rel="noopener noreferrer"
