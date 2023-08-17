@@ -7,3 +7,4 @@
 ## Description
 
 This is my portfolio website. It contains information about me, my projects, and my contact information.
+It was to test Next.js who I fell in love with 
